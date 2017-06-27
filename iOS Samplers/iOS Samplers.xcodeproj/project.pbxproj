@@ -13,6 +13,7 @@
 		59DDE3D41EFCB3870061BF21 /* iOS_Samplers.xcdatamodeld in Sources */ = {isa = PBXBuildFile; fileRef = 59DDE3D21EFCB3870061BF21 /* iOS_Samplers.xcdatamodeld */; };
 		59DDE3D61EFCB3870061BF21 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 59DDE3D51EFCB3870061BF21 /* Assets.xcassets */; };
 		59DDE3D91EFCB3870061BF21 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 59DDE3D71EFCB3870061BF21 /* LaunchScreen.storyboard */; };
+		59DDE3E21EFCB6210061BF21 /* MyUserDefaults.swift in Sources */ = {isa = PBXBuildFile; fileRef = 59DDE3E11EFCB6210061BF21 /* MyUserDefaults.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -24,6 +25,7 @@
 		59DDE3D51EFCB3870061BF21 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		59DDE3D81EFCB3870061BF21 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		59DDE3DA1EFCB3870061BF21 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		59DDE3E11EFCB6210061BF21 /* MyUserDefaults.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MyUserDefaults.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -56,6 +58,7 @@
 		59DDE3CA1EFCB3870061BF21 /* iOS Samplers */ = {
 			isa = PBXGroup;
 			children = (
+				59DDE3E01EFCB5B70061BF21 /* Data Persistence */,
 				59DDE3CB1EFCB3870061BF21 /* AppDelegate.swift */,
 				59DDE3CD1EFCB3870061BF21 /* ViewController.swift */,
 				59DDE3CF1EFCB3870061BF21 /* Main.storyboard */,
@@ -65,6 +68,14 @@
 				59DDE3D21EFCB3870061BF21 /* iOS_Samplers.xcdatamodeld */,
 			);
 			path = "iOS Samplers";
+			sourceTree = "<group>";
+		};
+		59DDE3E01EFCB5B70061BF21 /* Data Persistence */ = {
+			isa = PBXGroup;
+			children = (
+				59DDE3E11EFCB6210061BF21 /* MyUserDefaults.swift */,
+			);
+			path = "Data Persistence";
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -141,6 +152,7 @@
 				59DDE3CE1EFCB3870061BF21 /* ViewController.swift in Sources */,
 				59DDE3D41EFCB3870061BF21 /* iOS_Samplers.xcdatamodeld in Sources */,
 				59DDE3CC1EFCB3870061BF21 /* AppDelegate.swift in Sources */,
+				59DDE3E21EFCB6210061BF21 /* MyUserDefaults.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
